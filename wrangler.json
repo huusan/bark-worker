@@ -1,0 +1,18 @@
+{
+    "name": "bark-worker",
+    "main": "main.js",
+    "compatibility_date": "2025-03-01",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
+    "observability": {
+        "enabled": true
+    },
+    "d1_databases": [
+        {
+            "binding": "database",
+            "database_name": "bark-worker-d1",
+            "database_id": "eeb91806-e728-464d-9304-a08b91603245"
+        }
+    ]
+}
